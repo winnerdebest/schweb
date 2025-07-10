@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your School Name</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Kayomaria International School</h1>
+                <p>Your School Motto</p>
+            </div>
+            <button class="menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Kayomaria International School </h2>
+            <p>Your School Motto</p>
+            <a href="#about" class="btn">Learn More About Us</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our School</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est. 1985, Greenwood Elementary lorem vitae nisl vel sem facilisis lacinia. For over three decades, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Our mission? Nurture. Inspire. Excel. Curabitur eleifend, metus at congue luctus, velit urna dignissim eros, non elementum nisl lorem eget nulla.</p>
+                    <p>Lorem ipsum dolor sit amet, grades K through V elit cursus. Integer class size mediocris est—circa 20 discipuli per aula. Facultas nostra dedicata est: docentes certificati, specialis educationis periti, et magistri ad facultates ampliandas.</p>
+                    <h3>Our Core Values</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Academic Excellence</li>
+                        <li><i class="fas fa-check"></i> Respect for All</li>
+                        <li><i class="fas fa-check"></i> Creativity and Innovation</li>
+                        <li><i class="fas fa-check"></i> Community Engagement</li>
+                        <li><i class="fas fa-check"></i> Lifelong Learning</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/kayo_poster.jpg" alt="School building">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Student Life at School Name</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/pageantry.jpg" alt="Students in classroom">
+                    <p>Pageantry</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/kayo_award.jpg" alt="Science experiment">
+                    <p>Award Winning Students</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/kayo_chrismas.jpg" alt="Art class">
+                    <p>In-house Christmas Parties </p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/sport_day.jpg" alt="Sports day">
+                    <p>Annual Sports Events</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/kyao_cultural.jpg" alt="Library time">
+                    <p>Cultural Display</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/career_day.jpg" alt="Music class">
+                    <p>Career Day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Parents Say About Us</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Greenwood has been an amazing experience for our daughter. The teachers are caring and attentive, and she's made tremendous progress in reading and math."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>Parent of 2nd grader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The small class sizes allow for personalized attention. My son was struggling with math, but with the extra help from his teacher, he's now excelling."</p>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Parent of 4th grader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"We love the emphasis on both academics and character development. Our daughter has grown so much in confidence and kindness since starting at Greenwood."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Lisa Rodriguez">
+                            <div>
+                                <h4>Lisa Rodriguez</h4>
+                                <p>Parent of 1st grader</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init('qpbasS09pNyRh0PPi'); // ✅ Your Public Key
+  })();
+</script>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <h3>School Information</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Education Lane, Learning City, LC 12345</p>
+        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> info@greenwoodelementary.edu</p>
+        <p><i class="fas fa-clock"></i> Office Hours: Mon-Fri, 8:00 AM - 4:00 PM</p>
+
+        <h3>School Calendar</h3>
+        <p><i class="fas fa-calendar-alt"></i> First Day: August 24, 2023</p>
+        <p><i class="fas fa-calendar-alt"></i> Winter Break: December 18 - January 2</p>
+        <p><i class="fas fa-calendar-alt"></i> Spring Break: March 11-15</p>
+        <p><i class="fas fa-calendar-alt"></i> Last Day: June 10, 2024</p>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="user_email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="user_phone">
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          emailjs.sendForm('service_yzuxwoq', 'template_9mhp4cj', this)
+            .then(() => {
+              alert('Message sent successfully!');
+              this.reset();
+            }, (error) => {
+              alert('Something went wrong: ' + JSON.stringify(error));
+            });
+        });
+      </script>
+    </div>
+  </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>School Hours</h3>
+                    <p>Monday - Friday: 8:30 AM - 3:00 PM</p>
+                    <p>Early Dismissal: 12:30 PM (Wednesdays)</p>
+                    <p>Office Hours: 8:00 AM - 4:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <p>Subscribe to our newsletter for updates</p>
+                    <form class="newsletter">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Your School Name. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuBtn = document.querySelector('.menu-btn');
+            const nav = document.querySelector('nav');
+            
+            menuBtn.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+            
+            // Close menu when a nav link is clicked (optional)
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    nav.classList.remove('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
